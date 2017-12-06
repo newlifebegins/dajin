@@ -18,4 +18,7 @@ $(document).ready(function(){
         // $(".aui-content3").hide().siblings(".aui-content4").show();
         $(".aui-content").css({"background-image":"url(images/5-7.gif)","background-size":"cover"})
     })
+    setTimeout(function(){
+        $(".aui-content").css({"background-image":"url(images/talk1.gif)","background-size":"cover"})
+    },15000);
 })
