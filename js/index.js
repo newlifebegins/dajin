@@ -21,4 +21,8 @@ $(document).ready(function(){
     setTimeout(function(){
         $(".aui-content").css({"background-image":"url(images/talk1.gif)","background-size":"cover"})
     },15000);
+    setTimeout(function(){
+        $(".aui-content").hide();
+        $("#video").show();
+    },20000);
 })
